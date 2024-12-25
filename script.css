@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://example.com/corazones-navidad.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #ff5a5f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7a7f;
+}
